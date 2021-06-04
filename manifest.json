@@ -3,6 +3,11 @@
     "description": "Analyze any date and find the astrology sign associated.",
     "version": "1.0",
     "manifest_version": 2,
+    "icons": {
+        "16": "astro16.png",
+        "48": "astro48.png",
+        "128": "astro128.png"
+    },
 
     "browser_action": {
         "default_popup": "popup.html",
