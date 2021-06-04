@@ -2,19 +2,16 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Astro</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='popup.css'>
 </head>
 <body>
-    <h1>Astro!</h1>
-    <body>Highlight a date and find its astrology sign!</body>
+    <div class = "title"><h1>Astro</h1></div>
+    <div class = "desc">Highlight a date and find its astrology sign!</div>
     <br>
-    <button id = "scanDate">Scan Date!</button>
+    <button class = "button" id = "scanDate">Scan Date!</button>
     <script src="popup.js" charset="utf-8"></script>
-    <div id = "date"></div>
-    <div id = "sign"></div>
+    <div class = "info" id = "date"></div>
+    <div class = "info" id = "sign"></div>
 </body>
 </html>

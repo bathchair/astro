@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lotuscoder';
+    src: url('Lotuscoder.woff') format('woff'),
+        url('Lotuscoder.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

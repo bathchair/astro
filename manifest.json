@@ -4,9 +4,9 @@
     "version": "1.0",
     "manifest_version": 2,
     "icons": {
-        "16": "astro16.png",
-        "48": "astro48.png",
-        "128": "astro128.png"
+        "16": "icons/astro16.png",
+        "48": "icons/astro48.png",
+        "128": "icons/astro128.png"
     },
 
     "browser_action": {

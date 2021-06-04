@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Iniya Display';
+    src: url('IniyaDisplay.woff') format('woff'),
+        url('IniyaDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
