@@ -31,13 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // check if highlighted obj is valid date
             if (Object.prototype.toString.call(d) === "[object Date]") {
                 if (isNaN(d.getTime())) {
-                    document.getElementById('date').innerHTML = "Not a date!"
+                    document.getElementById('date').innerHTML = "Invalid Date"
                 } else {
                     document.getElementById('date').innerHTML = d.toLocaleDateString()
                     document.getElementById('sign').innerHTML = calculateAstrology(d)
                 }
             } else {
-                document.getElementById('date').innerHTML = "Not a date!"
+                document.getElementById('date').innerHTML = "Invalid Date"
             }
 
           })

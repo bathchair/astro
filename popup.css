@@ -20,7 +20,7 @@
 html {
     width: 300px;
     height: 250px;
-    background-image: linear-gradient(to bottom right, #7d6f86, #f3dad8);
+    background-image: linear-gradient(to top left, #73667a, #ecc3c1);
     line-height: 100%;
     padding: 5px;
 }
@@ -44,37 +44,42 @@ html {
     text-align: center;
 }
 
+.user {
+    float: left;
+    align-content: center;
+    width: 40%;
+}
+
 .button {
-    background-color: #eb98b7;
+    background-color: #73667a;
     border: 2px solid #fff;
     color: #fff;
     font-family: 'Lotuscoder';
+    font-size: 15px;
     text-align: center;
-    display: inline-block;
-    padding: 10px;
-    border-radius: 12px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
     transition-duration: 0.3s;
 }
 
 .button:hover {
-    background-color: #887a90;
+    background-color: #eeaac3;
     cursor: pointer;
 }
 
 .result {
     float:right;
+    width: 50%;
+    align-content: center;
 }
 
 .heading {
-    width: 150px;
     text-align: center;
-    background-color: #eb98b7;
-}
-
-.heading h1 {
+    background-color: #eeaac3;
     font-family: 'Lotuscoder';
     color: #fff;
     font-size: 15px;
+    /* border: 1px solid #fff; */
 }
 
 .info {
@@ -82,8 +87,6 @@ html {
     color: #fff;
     font-size: 15px;
     text-align: center;
-    /* background-color: rgb(244,195,194, 0.4);
-    border: 1px solid rgb(244,195,194, 0.4);
-    border-radius: 12px; */
+    margin-top: -5px;
 
 }
