@@ -19,7 +19,7 @@
 
 html {
     width: 300px;
-    height: 200px;
+    height: 250px;
     background-image: linear-gradient(to bottom right, #7d6f86, #f3dad8);
     line-height: 100%;
     padding: 5px;
@@ -45,8 +45,7 @@ html {
 }
 
 .button {
-    /* background-image: radial-gradient( #f4c3c2, #f1b5cb); */
-    background-color: #f1b5cb;
+    background-color: #eb98b7;
     border: 2px solid #fff;
     color: #fff;
     font-family: 'Lotuscoder';
@@ -58,7 +57,17 @@ html {
 }
 
 .button:hover {
-    /* background-image: radial-gradient(#9b9082, #7d6f85); */
-    background-color: #9b9082;
+    background-color: #887a90;
     cursor: pointer;
+}
+
+.result {
+    float:right;
+}
+
+.info {
+    font-family: 'Lotuscoder';
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
 }
