@@ -45,7 +45,8 @@ html {
 }
 
 .button {
-    background-image: radial-gradient( #f4c3c2, #f1b5cb);
+    /* background-image: radial-gradient( #f4c3c2, #f1b5cb); */
+    background-color: #f1b5cb;
     border: 2px solid #fff;
     color: #fff;
     font-family: 'Lotuscoder';
@@ -53,9 +54,11 @@ html {
     display: inline-block;
     padding: 10px;
     border-radius: 12px;
-    transition-duration: 0s;
+    transition-duration: 0.3s;
 }
 
 .button:hover {
-    background-image: radial-gradient(#9b9082, #7d6f85);
+    /* background-image: radial-gradient(#9b9082, #7d6f85); */
+    background-color: #9b9082;
+    cursor: pointer;
 }
