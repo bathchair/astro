@@ -5,7 +5,7 @@ A Google Chrome extension allowing users to find the associated zodiac sign with
 This project is my first experience with making a Google Chrome extension and is a way for me to practice various aspects of UI design. It also allows me to refamiliarize myself and practice with HTML, CSS, JavaScript in a new setting.
 
 # Project Status
-Work in progress!
+Working product!
 
 # Progress
 - Established extension layout
